@@ -28,3 +28,23 @@ body{
     border: 2px;
     border-radius: 50px;
 }
+
+a:link{
+    color: white;
+    
+}
+a:visited{
+    color: red;
+}
+.orgami:hover{
+    translate: scale(1.2);
+}
+.orgami{
+    position: relative;
+}
+.orgami p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
